@@ -6,13 +6,10 @@ startup
 
 start
 {
-	if (!vars.onNewGame && features["onNewGame"].current > 15.0)
+	if (!vars.onNewGame && features["onNewGameYes"].current > 20.0 && features["newGameWarning"].current > 20.0)
 		vars.onNewGame = true;
-
-	if (vars.onNewGame && features["onLoadGame"].current > 15.0)
-		vars.onNewGame = false;
 	
-	if (vars.onNewGame && features["blackScreen"].current > 15.0)
+	if (vars.onNewGame && features["newGameWarning"].current < 15.0)
 	{
 		vars.onNewGame = false;
 		return true;
@@ -26,7 +23,7 @@ split
 
 	if (!vars.canSplit) return false;
 
-	if (features["missionComplete"].current > 15.0)
+	if (features["missionComplete"].current > 15.0 && features["onMission_1"].current < 10.0)
 	{
 		vars.canSplit = false;
 		return true;
@@ -35,5 +32,5 @@ split
 
 isLoading
 {
-	return features["isLoading"].current > 10.0;
+	return features["isLoading"].current > 20.0;
 }

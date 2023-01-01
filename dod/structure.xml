@@ -33,69 +33,6 @@
         </WatchZone>
 
         <WatchZone>
-          <Name>onNewGame</Name>
-          <Geometry>
-            <X>262</X>
-            <Y>204</Y>
-            <Width>105</Width>
-            <Height>13</Height>
-          </Geometry>
-          <Watches>
-            <Watcher>
-              <Name>new_game</Name>
-              <ErrorMetric>PeakAbsolute</ErrorMetric>
-              <WatchImages>
-                <WatchImage>
-                  <FilePath>imgs\dod_onNewGame.png</FilePath>
-                </WatchImage>
-              </WatchImages>
-            </Watcher>
-          </Watches>
-        </WatchZone>
-
-        <WatchZone>
-          <Name>onLoadGame</Name>
-          <Geometry>
-            <X>262</X>
-            <Y>228</Y>
-            <Width>113</Width>
-            <Height>13</Height>
-          </Geometry>
-          <Watches>
-            <Watcher>
-              <Name>load_game</Name>
-              <ErrorMetric>PeakAbsolute</ErrorMetric>
-              <WatchImages>
-                <WatchImage>
-                  <FilePath>imgs\dod_onLoadGame.png</FilePath>
-                </WatchImage>
-              </WatchImages>
-            </Watcher>
-          </Watches>
-        </WatchZone>
-
-        <WatchZone>
-          <Name>blackScreen</Name>
-          <Geometry>
-            <X>330</X>
-            <Y>220</Y>
-            <Width>32</Width>
-            <Height>32</Height>
-          </Geometry>
-          <Watches>
-            <Watcher>
-              <Name>blacks_screen</Name>
-              <ErrorMetric>PeakAbsolute</ErrorMetric>
-              <WatchImages>
-                <WatchImage>
-                  <FilePath>imgs\dod_blackScreen.png</FilePath>
-                </WatchImage>
-              </WatchImages>
-            </Watcher>
-          </Watches>
-        </WatchZone>
-
-        <WatchZone>
           <Name>onMission_0</Name>
           <Geometry>
             <X>573</X>
@@ -152,6 +89,48 @@
               <WatchImages>
                 <WatchImage>
                   <FilePath>imgs\dod_missionComplete.png</FilePath>
+                </WatchImage>
+              </WatchImages>
+            </Watcher>
+          </Watches>
+        </WatchZone>
+
+        <WatchZone>
+          <Name>newGameWarning</Name>
+          <Geometry>
+            <X>111</X>
+            <Y>136</Y>
+            <Width>90</Width>
+            <Height>16</Height>
+          </Geometry>
+          <Watches>
+            <Watcher>
+              <Name>newgame_warning</Name>
+              <ErrorMetric>PeakAbsolute</ErrorMetric>
+              <WatchImages>
+                <WatchImage>
+                  <FilePath>imgs\dod_newGameWarning.png</FilePath>
+                </WatchImage>
+              </WatchImages>
+            </Watcher>
+          </Watches>
+        </WatchZone>
+
+        <WatchZone>
+          <Name>onNewGameYes</Name>
+          <Geometry>
+            <X>288</X>
+            <Y>306</Y>
+            <Width>35</Width>
+            <Height>15</Height>
+          </Geometry>
+          <Watches>
+            <Watcher>
+              <Name>on_yes</Name>
+              <ErrorMetric>PeakAbsolute</ErrorMetric>
+              <WatchImages>
+                <WatchImage>
+                  <FilePath>imgs\dod_onNewGameYes.png</FilePath>
                 </WatchImage>
               </WatchImages>
             </Watcher>
