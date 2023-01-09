@@ -1,5 +1,6 @@
 # drakengard_visual_autosplitter
 A visual autosplitter profile for Drakengard
+If you have any questions, ask them in the Drakengard 1 section of the DrakeNieR speedrun Discord server: sponsoredbydrakengard.com
 
 \
 Requirements:
