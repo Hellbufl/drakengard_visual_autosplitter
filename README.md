@@ -1,4 +1,7 @@
-# drakengard_visual_autosplitter
+<h1 align="center">
+:dragon: drakengard_visual_autosplitter :crossed_swords:
+</h1>
+
 A visual autosplitter profile for Drakengard
 
 \
