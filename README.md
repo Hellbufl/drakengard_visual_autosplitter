@@ -22,7 +22,7 @@ Installing:
 - set up OBS virtual cam to output only the game feed (no black border or anything else)
   > - you can set the virtual cam to output a single scene
   > - if the game does not fill the frame in that scene, stretch it to fill the entire frame
-  - **Shit won't work if you don't align the game feed properly**
+  - **shit won't work if you don't align the game feed properly**
 
 \
 In the component settings:
