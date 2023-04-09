@@ -33,6 +33,6 @@ In the component settings:
 It's working if you see the game feed in the *"Scan Region"* tab and some funny numbers in the *"Features"* tab.\
 \
 If not:
-- restart livesplit (save layout)
+- restart livesplit (I think you have to start the virtual cam before livesplit)
 - refresh the capture device a few times by switching to another and back
   > (Yes this is jank as shit, don't worry about it)
