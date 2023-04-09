@@ -10,28 +10,7 @@
       </Geometry>
 
       <WatchZones>
-
-        <WatchZone>
-          <Name>isLoading</Name>
-          <Geometry>
-            <X>53</X>
-            <Y>391</Y>
-            <Width>75</Width>
-            <Height>15</Height>
-          </Geometry>
-          <Watches>
-            <Watcher>
-              <Name>loading</Name>
-              <ErrorMetric>PeakAbsolute</ErrorMetric>
-              <WatchImages>
-                <WatchImage>
-                  <FilePath>imgs\dod_loading.png</FilePath>
-                </WatchImage>
-              </WatchImages>
-            </Watcher>
-          </Watches>
-        </WatchZone>
-
+      
         <WatchZone>
           <Name>onMission_0</Name>
           <Geometry>
@@ -43,7 +22,7 @@
           <Watches>
             <Watcher>
               <Name>mission_0</Name>
-              <ErrorMetric>PeakAbsolute</ErrorMetric>
+              <ErrorMetric>NormalizedCrossCorrelation</ErrorMetric>
               <WatchImages>
                 <WatchImage>
                   <FilePath>imgs\dod_onMission_0.png</FilePath>
@@ -64,7 +43,7 @@
           <Watches>
             <Watcher>
               <Name>mission_1</Name>
-              <ErrorMetric>PeakAbsolute</ErrorMetric>
+              <ErrorMetric>NormalizedCrossCorrelation</ErrorMetric>
               <WatchImages>
                 <WatchImage>
                   <FilePath>imgs\dod_onMission_1.png</FilePath>
@@ -85,7 +64,7 @@
           <Watches>
             <Watcher>
               <Name>mission_complete</Name>
-              <ErrorMetric>PeakAbsolute</ErrorMetric>
+              <ErrorMetric>NormalizedCrossCorrelation</ErrorMetric>
               <WatchImages>
                 <WatchImage>
                   <FilePath>imgs\dod_missionComplete.png</FilePath>
@@ -106,7 +85,7 @@
           <Watches>
             <Watcher>
               <Name>newgame_warning</Name>
-              <ErrorMetric>PeakAbsolute</ErrorMetric>
+              <ErrorMetric>NormalizedCrossCorrelation</ErrorMetric>
               <WatchImages>
                 <WatchImage>
                   <FilePath>imgs\dod_newGameWarning.png</FilePath>
@@ -127,7 +106,7 @@
           <Watches>
             <Watcher>
               <Name>on_yes</Name>
-              <ErrorMetric>PeakAbsolute</ErrorMetric>
+              <ErrorMetric>NormalizedCrossCorrelation</ErrorMetric>
               <WatchImages>
                 <WatchImage>
                   <FilePath>imgs\dod_onNewGameYes.png</FilePath>
